@@ -1,0 +1,284 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aakash G | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span class="logo-mark">AG</span>
+    <span>Aakash G</span>
+  </div>
+  <nav>
+    <a href="#home" onclick="navigateTo('home')">Home</a>
+    <a href="#about" onclick="navigateTo('about')">About Me</a>
+    <a href="#skills" onclick="navigateTo('skills')">Skills</a>
+    <a href="#projects" onclick="navigateTo('projects')">Projects</a>
+    <a href="#roadmap" onclick="navigateTo('roadmap')">Roadmap</a>
+    <a href="#education" onclick="navigateTo('education')">Education</a>
+    <a href="#contact" onclick="navigateTo('contact')">Contact</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+  </nav>
+</header>
+
+<div class="container">
+  <section id="home" class="hero">
+    <p class="breadcrumb">Undergraduate Portfolio</p>
+    <h1>Hi, I'm Aakash G</h1>
+    <p class="hero-subtitle">BCA Student · Aspiring Software Developer</p>
+    <p class="hero-description">
+      I'm pursuing my Bachelor of Computer Applications at Mount Carmel College, graduating in 2028. I'm building my foundation across programming, databases and front-end development, and working toward becoming a developer who can turn a real problem into a working piece of software.
+    </p>
+    <div class="button-group">
+      <button class="btn btn-primary" onclick="navigateTo('projects')">View Projects</button>
+      <button class="btn btn-secondary" onclick="navigateTo('contact')">Contact Me</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-header">
+      <p class="section-label">01 / About</p>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-box">
+      <p>I'm a BCA student at Mount Carmel College with a growing interest in how the web comes together — the way a good interface feels simple on the surface while a lot of logic runs quietly underneath it. That mix of design and reasoning is what first pulled me toward development, and it's what keeps me curious.</p>
+      <p>I'm naturally drawn to figuring out how things work rather than just using them, which shows up in how I learn: picking apart a layout, testing an idea in the console, or rebuilding a small feature just to understand it properly. Software feels like an area with an endless amount to explore, and I like that I'm still early in that journey.</p>
+      <p>Alongside my coursework, I'm strengthening my programming fundamentals and DSA, and building small hands-on projects to practice turning what I learn into working code.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-header">
+      <p class="section-label">02 / Technical Skills</p>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-description">Languages, tools and frameworks I've studied and practiced so far.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-dot blue"></span>
+          <h3>Programming</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Python — Learning</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-dot teal"></span>
+          <h3>Web Development</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Angular JS</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-dot orange"></span>
+          <h3>Database</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">SQL Server</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-dot purple"></span>
+          <h3>Core Concepts</h3>
+        </div>
+        <div class="skill-items">
+          <span class="skill-tag">DSA (Data Structures and Algorithms)</span>
+          <span class="skill-tag">System Design — Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-header">
+      <p class="section-label">03 / Work</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-description">Hands-on projects built during my coursework and practice.</p>
+    </div>
+
+    <div class="project-card">
+      <span class="project-tag">Frontend Only</span>
+      <h3>Central Tiffin — Hotel Ordering Website</h3>
+      <p class="project-tech">HTML · CSS · JavaScript · jQuery · AngularJS</p>
+      <p class="project-description">
+        A working front-end for a hotel ordering system: browse a multicuisine menu, add dishes to a cart, adjust quantities, and check out. Built to practice page structure, component-style layout with AngularJS, and interactive UI logic.
+      </p>
+      <div class="project-features">
+        <div class="project-features-title">KEY FEATURES:</div>
+        <ul>
+          <li>Add-to-cart with live quantity and total updates</li>
+          <li>Responsive cart drawer for mobile</li>
+          <li>Simulated checkout flow with order confirmation</li>
+        </ul>
+      </div>
+      <div class="project-links">
+        <a href="https://claude.ai/artifact/NUjBdFTBf5tJmpmzHfZ71D" target="_blank" class="project-link-btn primary">
+          <span>↗</span> Live Demo
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <span class="project-tag">Frontend Only</span>
+      <h3>YouTube-Inspired Frontend Page</h3>
+      <p class="project-tech">HTML · CSS · JavaScript</p>
+      <p class="project-description">
+        A frontend recreation of a YouTube-style page, built to practice layout structure, component styling and responsive design without any backend.
+      </p>
+      <div class="project-links">
+        <a href="#" target="_blank" class="project-link-btn primary">
+          <span>↗</span> Live Demo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap">
+    <div class="section-header">
+      <p class="section-label">04 / Roadmap</p>
+      <h2 class="section-title">Future Roadmap</h2>
+      <p class="section-description">What I'm actively exploring next, alongside my coursework.</p>
+    </div>
+    <div class="roadmap-grid">
+      <div class="roadmap-card">
+        <div class="roadmap-icon">🖥️</div>
+        <h3>Backend Development</h3>
+        <p>Exploring how servers handle requests and how an application talks to its database.</p>
+      </div>
+      <div class="roadmap-card">
+        <div class="roadmap-icon">🧩</div>
+        <h3>System Design</h3>
+        <p>Learning how larger applications are structured, and how their pieces fit and scale together.</p>
+      </div>
+      <div class="roadmap-card">
+        <div class="roadmap-icon">🤖</div>
+        <h3>AI Tools</h3>
+        <p>Understanding modern AI-assisted development tools and where they genuinely help in a real workflow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-header">
+      <p class="section-label">05 / Background</p>
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="education-item">
+      <div class="education-left">
+        <h3>BCA — Bachelor of Computer Applications</h3>
+        <p>Mount Carmel College</p>
+      </div>
+      <div class="education-right">2025 – Present</div>
+    </div>
+    <div class="education-item">
+      <div class="education-left">
+        <h3>12th Grade — Higher Secondary</h3>
+        <p>Dr. G.S. Kalyanasundaram Memorial School, Kumbakonam, Tamil Nadu · <span class="edu-highlight">Biology Group</span></p>
+      </div>
+    </div>
+    <div class="education-item">
+      <div class="education-left">
+        <h3>10th Grade — Secondary Education</h3>
+        <p>Dr. G.S. Kalyanasundaram Memorial School, Kumbakonam, Tamil Nadu</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-header">
+      <p class="section-label">06 / Connect</p>
+      <h2 class="section-title">Contact</h2>
+      <p class="section-description">Feel free to reach out for collaborations, questions, or just to talk tech.</p>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-left">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-info">
+          <h3>Email Address</h3>
+          <p>aakashgnsn@gmail.com</p>
+        </div>
+      </div>
+      <div class="contact-action">
+        <button class="contact-btn" id="copyEmailBtn">📋 Copy Email</button>
+        <button class="contact-btn primary" onclick="window.location.href='mailto:aakashgnsn@gmail.com'">Send Email</button>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-left">
+        <div class="contact-icon">📞</div>
+        <div class="contact-info">
+          <h3>Phone</h3>
+          <p>6369746344</p>
+        </div>
+      </div>
+      <div class="contact-action">
+        <a href="tel:6369746344" class="contact-btn">
+          → Call
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-left">
+        <div class="contact-icon">💼</div>
+        <div class="contact-info">
+          <h3>LinkedIn</h3>
+          <p>Connect professionally</p>
+        </div>
+      </div>
+      <div class="contact-action">
+        <a href="https://www.linkedin.com/in/aakashgnsn/" target="_blank" class="contact-btn">
+          → View Profile
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h3 style="margin-bottom: 20px; font-size: 1.3rem;">Send me a Message</h3>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Aakash G</p>
+  <p>Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
